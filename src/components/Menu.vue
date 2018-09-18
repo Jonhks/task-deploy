@@ -8,7 +8,7 @@
   </nav>
 </template>
 
-
+ 
 <style lang="sass" scoped>
 nav
   height: 27vh

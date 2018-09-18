@@ -8,7 +8,6 @@
 </template>
 
 <script>
-
 import jtTitle from './components/Title.vue'
 import JmMenu from './components/Menu.vue'
 import JfForm from './components/Form.vue'

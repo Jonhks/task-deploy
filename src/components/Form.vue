@@ -31,11 +31,11 @@
     </div>
     <div v-show="tasks.length" class="col s12">
       <ol>
-        <li v-for="(task ,index) in tasks">
+        <!-- <li v-for="(task ,index) in tasks"> -->
           <p>Mi tarea: {{ task.title }}, estimo {{ task.time }} horas 
           <span @click="removeTask(index)"><i class="material-icons">delete</i> </span>
           </p>
-        </li>
+        <!-- </li> -->
       </ol>
     </div>
   </div>
@@ -101,6 +101,7 @@ export default {
 <style lang="sass" scoped>
   .cancel
     background-color: black
+    
   footer
     height: 7vh
     background: black  
